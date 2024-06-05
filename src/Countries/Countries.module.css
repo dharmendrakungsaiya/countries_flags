@@ -1,0 +1,28 @@
+.wrapper{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 0px;
+    margin: 10px;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 100vh;
+}
